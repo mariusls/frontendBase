@@ -1,0 +1,43 @@
+.box {
+    border: 1px solid black;
+    height: 50px;
+        
+    &.orange {
+        background-color: orange;
+    }
+    &.blue {
+        background-color: blue;
+    }
+    &.red {
+        background-color: red;
+    }
+    &.clicked {
+        height: 200px;
+    }
+}
+  
+.btn {
+    margin: 30px auto;
+}
+  
+.halla {
+    max-width: 50%;
+    margin: 0 auto;
+    
+    .jebba {
+        display: none;
+        
+        &.shown {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+
+            &:hover {
+                transform: scale(1.6);
+            }
+        }
+    }
+}
+  
+  

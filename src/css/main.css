@@ -1,0 +1,27 @@
+.box {
+  border: 1px solid black;
+  height: 50px; }
+  .box.orange {
+    background-color: orange; }
+  .box.blue {
+    background-color: blue; }
+  .box.red {
+    background-color: red; }
+  .box.clicked {
+    height: 200px; }
+
+.btn {
+  margin: 30px auto; }
+
+.halla {
+  max-width: 50%;
+  margin: 0 auto; }
+  .halla .jebba {
+    display: none; }
+    .halla .jebba.shown {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0 auto; }
+      .halla .jebba.shown:hover {
+        transform: scale(1.6); }
